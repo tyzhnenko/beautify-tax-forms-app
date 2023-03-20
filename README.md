@@ -1,3 +1,7 @@
+# Bautiful Tax Forms App
+
+This is a simple app that allows you import State Fiscal Service XML forms and see results.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
