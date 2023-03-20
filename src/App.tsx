@@ -1,6 +1,11 @@
+import React from "react";
+import AppRouter from "./hoc/AppRouter";
+
 function App() {
   return (
-    <div className="text-3xl font-bold underline"> Hello World </div>
+    <React.StrictMode>
+      <AppRouter />
+    </React.StrictMode>
   );
 }
 
