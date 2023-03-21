@@ -7,6 +7,7 @@ import DFSXMLForm from "../../../utils/DFSXMLForm";
 import { DFSFormHeaderType, DFSFormRowType } from "../../../utils/DFSXMLForm";
 import { Alert } from "@material-tailwind/react";
 import useTitle from "../../../utils/useTitle";
+import log from "loglevel";
 
 const defaultHeader = (): DFSFormHeaderType => ({
   firstName: "",
@@ -53,9 +54,9 @@ function DFSForm() {
   const [errorMessage, setErrorMessage] = useState("");
 
   useMemo(() => {
-    console.debug("formXML state is changed");
+    log.debug("formXML state is changed");
     if (formXML === "") {
-      console.debug("formXML is empty");
+      log.debug("formXML is empty");
       return;
     }
     const xmlForm = new DFSXMLForm(formXML);

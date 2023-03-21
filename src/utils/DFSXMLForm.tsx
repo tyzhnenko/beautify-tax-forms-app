@@ -1,5 +1,6 @@
 import { XMLParser } from "fast-xml-parser";
 import * as _ from "lodash";
+import log from "loglevel";
 
 export interface DFSFormHeaderType {
   firstName: string;
@@ -58,7 +59,7 @@ class DFSXMLForm {
       parseAttributeValue: false,
     };
     this.XML = new XMLParser(options).parse(xmlString);
-    console.debug(this.XML);
+    log.debug(this.XML);
     this.fillRowsIndex();
   }
 
@@ -69,8 +70,8 @@ class DFSXMLForm {
     const cDocType = this.formHead["C_DOC_TYPE"];
 
     const providerFormType = `${cDoc}${cDocSub}${cDocType}${cDocVer}`;
-    console.debug("providesFormType = %s", providerFormType);
-    console.debug("formType = %s", this.formType);
+    log.debug("providesFormType = %s", providerFormType);
+    log.debug("formType = %s", this.formType);
     return (providerFormType as string) === (this.formType as string);
   }
 
@@ -78,7 +79,7 @@ class DFSXMLForm {
     for (const key in this.formColsMap) {
       const storageName =
         this.formColsMap[key as keyof typeof this.formColsMap];
-      console.log("key = %s, storageName = %s", key, storageName);
+      log.log("key = %s, storageName = %s", key, storageName);
       if (storageName in this.fromBody) {
         this.fromBody[storageName].forEach((row: any) => {
           if (!(key in this.formColsIndexMap)) {
@@ -88,7 +89,7 @@ class DFSXMLForm {
         });
       }
     }
-    console.debug("formColsIndexMap = ", this.formColsIndexMap);
+    log.debug("formColsIndexMap = ", this.formColsIndexMap);
   }
 
   get formHead(): any {
@@ -116,7 +117,7 @@ class DFSXMLForm {
   }
 
   private fillRow(rowNumber: string): DFSFormRowType {
-    console.debug("fillRow rowNumber %s", rowNumber);
+    log.debug("fillRow rowNumber %s", rowNumber);
     const newRow: DFSFormRowType = {
       rowNumber: rowNumber,
       requestResult: "",
@@ -138,7 +139,7 @@ class DFSXMLForm {
         key in this.formColsIndexMap &&
         rowNumber in this.formColsIndexMap[key]
       ) {
-        console.debug("Index for %s key", key, this.formColsIndexMap[key]);
+        log.debug("Index for %s key", key, this.formColsIndexMap[key]);
         newRow[key as keyof DFSFormRowType] =
           this.formColsIndexMap[key][rowNumber]["#text"];
       }
