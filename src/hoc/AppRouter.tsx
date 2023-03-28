@@ -9,7 +9,7 @@ import Layout from "../layout";
 import AboutPage from "../pages/AboutPage";
 import HomePage from "../pages/HomePage";
 import FormsPage from "../pages/FormsPage";
-import { availableForms } from "../componets/forms";
+import { availableForms } from "../components/forms";
 
 function AppRouter() {
   const appRoutes = createRoutesFromElements(

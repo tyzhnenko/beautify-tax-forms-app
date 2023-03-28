@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { availableForms } from "../componets/forms";
+import { availableForms } from "../components/forms";
 import useTitle from "../utils/useTitle";
 
 function FormsPage() {

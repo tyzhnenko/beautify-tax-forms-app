@@ -10,7 +10,7 @@ import { TextEncoder, TextDecoder } from "util";
 describe("DFSFormBody component", () => {
   function getMockXML() {
     const mockData = fs.readFileSync(
-      "src/componets/forms/F1401803/__testdata__/F1401803_mock_data.xml"
+      "src/components/forms/F1401803/__testdata__/F1401803_mock_data.xml"
     );
     return new File([mockData], "test.xml", { type: "text/xml" });
   }

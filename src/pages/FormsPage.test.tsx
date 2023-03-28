@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { BrowserRouter } from "react-router-dom";
 import FormsPage from "./FormsPage";
-import { availableForms } from "../componets/forms";
+import { availableForms } from "../components/forms";
 
 describe("AppRouter component", () => {
   it("should render the component", () => {
