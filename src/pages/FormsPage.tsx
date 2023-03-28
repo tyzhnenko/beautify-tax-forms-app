@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { availableForms } from "../componets/forms";
 import useTitle from "../utils/useTitle";
 
@@ -16,10 +16,6 @@ function FormsPage() {
           <div className="col-span-9">{form.description}</div>
         </div>
       ))}
-
-      <div>
-        <Outlet />
-      </div>
     </div>
   );
 }

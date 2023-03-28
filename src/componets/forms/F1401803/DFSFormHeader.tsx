@@ -5,7 +5,6 @@ export interface DFSFormHeaderProps {
 }
 
 export function DFSFormHeader(props: DFSFormHeaderProps) {
-  // export function DFSFormHeader({ props: { headers: DFSFormHeaderType } }) {
   const { headers } = props;
   return (
     <div className="container">
@@ -20,7 +19,7 @@ export function DFSFormHeader(props: DFSFormHeaderProps) {
         <div className="col-span-9 border-2 text-center">
           {headers?.lastName}
         </div>
-        <div className="col-span-9 border-2 text-center">Імʼя</div>
+        <div className="col-span-9 border-2 text-center">Ім'я</div>
         <div className="col-span-9 border-2 text-center">
           {headers?.sureName}
         </div>

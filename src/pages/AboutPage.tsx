@@ -7,6 +7,8 @@ function AboutPage() {
   return (
     <div className="container w-auto px-10">
       <Typography as="article" className="pt-16">
+        <h1 className="text-4xl text-center pb-10">Про проект</h1>
+
         <p className="pt-5">
           Якщо у вас є побажання чи ви знайшли помилки додайте їх опис{" "}
           <a

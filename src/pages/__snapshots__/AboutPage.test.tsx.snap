@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutPage component should match snapshot 1`] = `
+<div>
+  <div
+    class="container w-auto px-10"
+  >
+    <article
+      class="block antialiased font-sans text-base font-light leading-relaxed text-inherit pt-16"
+    >
+      <h1
+        class="text-4xl text-center pb-10"
+      >
+        Про проект
+      </h1>
+      <p
+        class="pt-5"
+      >
+        Якщо у вас є побажання чи ви знайшли помилки додайте їх опис
+         
+        <a
+          class="underline"
+          href="https://github.com/tyzhnenko/beautify-tax-forms-app/issues"
+        >
+          сюди
+        </a>
+      </p>
+      <p
+        class="pt-5"
+      >
+        Пошта для звʼязку
+         
+        <a
+          class="underline"
+          href="mailto:beautifytaxforms@j4f.app"
+        >
+          beautifytaxforms@j4f.app
+        </a>
+      </p>
+    </article>
+  </div>
+</div>
+`;

@@ -61,9 +61,10 @@ function DFSForm() {
     }
     const xmlForm = new DFSXMLForm(formXML);
     if (!xmlForm.validFormType()) {
-      setErrorMessage("Invalid form type");
+      setErrorMessage("Не вірний тип форми");
       return;
     }
+    xmlForm.parseFile();
     setFormHeader(xmlForm.getHeader());
     setFormBody(xmlForm.getBody());
   }, [formXML]);

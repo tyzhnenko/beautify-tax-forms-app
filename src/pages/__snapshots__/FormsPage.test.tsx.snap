@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppRouter component should match snapshot 1`] = `
+<div>
+  <div
+    class="pt-10"
+  >
+    <h1
+      class="text-4xl text-center pb-10"
+    >
+      Доступні форми
+    </h1>
+    <div
+      class="grid grid-cols-12"
+    >
+      <div
+        class="col-span-3 text-center"
+      >
+        <a
+          href="/forms/F1401803"
+        >
+          F1401803
+        </a>
+      </div>
+      <div
+        class="col-span-9"
+      >
+        Відомості з Державного реєстру фізичних осіб – платників податків про суми виплачених доходів та утриманих податків. Відповідь на запит у електронному вигляді
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -36,12 +36,17 @@ function DFSFormUploadFile(props: any) {
   return (
     <div className="text-center">
       <Fragment>
-        <Button onClick={openHandler}>Select file</Button>
+        <Button onClick={openHandler}>Оберить файл</Button>
         <Dialog open={open} handler={openHandler}>
           <DialogHeader>Вибір файлу</DialogHeader>
           <DialogBody>
             Оберить XML файл форми F0121213 для відображення
-            <Input type="file" onChange={onChangeHandler} />
+            <Input
+              data-testid="file-selector"
+              type="file"
+              onChange={onChangeHandler}
+              accept="text/xml"
+            />
           </DialogBody>
           <DialogFooter>
             <Button variant="text" color="red" onClick={openHandler}>

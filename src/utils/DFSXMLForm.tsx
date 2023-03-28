@@ -60,10 +60,20 @@ class DFSXMLForm {
     };
     this.XML = new XMLParser(options).parse(xmlString);
     log.debug(this.XML);
+    // this.fillRowsIndex();
+  }
+
+  parseFile() {
+    if (!this.validFormType) {
+      return null;
+    }
     this.fillRowsIndex();
   }
 
   validFormType(): boolean {
+    if (this.formHead === null) {
+      return false;
+    }
     const cDoc = this.formHead["C_DOC"];
     const cDocSub = this.formHead["C_DOC_SUB"];
     const cDocVer = this.formHead["C_DOC_VER"];
@@ -93,11 +103,19 @@ class DFSXMLForm {
   }
 
   get formHead(): any {
-    return this.XML["DECLAR"]["DECLARHEAD"];
+    // return this.XML["DECLAR"]["DECLARHEAD"];
+    return (
+      // this.XML && this.XML["DECLAR"] && this.XML["DECLAR"]["DECLARHEAD"] && null
+      this.XML?.DECLAR?.DECLARHEAD || null
+    );
   }
 
   get fromBody(): any {
-    return this.XML["DECLAR"]["DECLARBODY"];
+    // return this.XML["DECLAR"]["DECLARBODY"];
+    return (
+      // this.XML && this.XML["DECLAR"] && this.XML["DECLAR"]["DECLARBODY"] && null
+      this.XML?.DECLAR?.DECLARBODY || null
+    );
   }
 
   getHeader(): DFSFormHeaderType {

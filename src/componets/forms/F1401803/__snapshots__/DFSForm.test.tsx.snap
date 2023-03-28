@@ -1,0 +1,1565 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DFSFormBody component should match the snapshot with data 1`] = `
+<div
+  aria-hidden="true"
+  data-aria-hidden="true"
+>
+  <div
+    class="shadow-lg"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="grid grid-rows-10 grid-cols-12"
+      >
+        <div
+          class="row-span-8 col-span-3 flex justify-center items-center border-2"
+        >
+          Фізична особа - платник податків
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          МИКОЛАЙ
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          Прізвище
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          МИКОЛАЇВ
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          Ім'я
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          МИКОЛАЙОВИЧ
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          По батькові
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          1234567890
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          Реестраційний номер облікової картки платника податків/серія (за наявності) та номер паспорта
+        </div>
+      </div>
+      <div
+        class="grid grid-rows-2 grid-cols-12"
+      >
+        <div
+          class="row-span-2 col-span-3 flex justify-center items-center border-2"
+        >
+          Який зареєстрований в
+        </div>
+        <div
+          class="col-span-1 border-2 text-center"
+        >
+          2034
+        </div>
+        <div
+          class="col-span-8 border-2 text-center"
+        >
+          ГОЛОВНЕ УПРАВЛІННЯ ДПС
+        </div>
+        <div
+          class="col-span-1 border-2 text-center"
+        >
+          Код
+        </div>
+        <div
+          class="col-span-8 border-2 text-center"
+        >
+          Назва териториального органу ДПС
+        </div>
+      </div>
+      <div
+        class="grid grid-rows-1 grid-cols-12"
+      >
+        <div
+          class="col-span-3 text-center border-2"
+        >
+          Електронна адреса фізичної особи
+        </div>
+        <div
+          class="col-span-9 text-center border-2"
+        >
+          user@example.com
+        </div>
+      </div>
+      <div
+        class="flex pt-4"
+      >
+        <div
+          class="flex-initial w-8"
+        />
+        <div
+          class="flex-auto w-8 text-right"
+        >
+          за период з
+        </div>
+        <div
+          class="flex-auto w-8 text-center border-b-2 border-black"
+        >
+          1
+        </div>
+        <div
+          class="flex-auto w-8 text-left"
+        >
+          кварталу
+        </div>
+        <div
+          class="flex-auto w-8 text-center border-b-2 border-black"
+        >
+          2022
+        </div>
+        <div
+          class="flex-auto w-8"
+        >
+          року
+        </div>
+        <div
+          class="w-32"
+        />
+        <div
+          class="flex-auto w-8 text-right"
+        >
+          по
+        </div>
+        <div
+          class="flex-auto w-8 text-center border-b-2 border-black"
+        >
+          4
+        </div>
+        <div
+          class="flex-auto w-8 text-left"
+        >
+          квартал
+        </div>
+        <div
+          class="flex-auto w-8 text-center border-b-2 border-black"
+        >
+          2022
+        </div>
+        <div
+          class="flex-auto w-8"
+        >
+          року
+        </div>
+        <div
+          class="w-8"
+        />
+      </div>
+    </div>
+    <div
+      class="container overflow-hidden"
+    >
+      <table
+        class="min-w-full text-center text-sm font-light border-2"
+      >
+        <thead
+          class="font-medium dark:border-neutral-500"
+        >
+          <tr
+            class="border-2"
+          >
+            <th
+              class="border-2"
+              rowspan="2"
+              scope="col"
+            >
+              № з/п
+            </th>
+            <th
+              class="border-2"
+              rowspan="2"
+              scope="col"
+            >
+              Результат обробки запиту
+            </th>
+            <th
+              class="border-2"
+              colspan="2"
+              scope="col"
+            >
+              Період, за який надається інформація
+            </th>
+            <th
+              class="border-2"
+              colspan="2"
+              scope="col"
+            >
+              Джерела отримання інформації
+            </th>
+            <th
+              class="border-2"
+              colspan="2"
+              scope="col"
+            >
+              Сума доходу
+            </th>
+            <th
+              class="border-2"
+              colspan="2"
+              scope="col"
+            >
+              Сума утриманного податку
+            </th>
+            <th
+              class="border-2"
+              rowspan="2"
+              scope="col"
+            >
+              Код та назва ознаку доходу / код ознаки пільги
+            </th>
+            <th
+              class="border-2"
+              rowspan="2"
+              scope="col"
+            >
+              Дата прийому на роботу
+            </th>
+            <th
+              class="border-2"
+              rowspan="2"
+              scope="col"
+            >
+              Дата звільненя з роботи
+            </th>
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="border-2"
+              scope="col"
+            >
+              Номер кварталу - місяць
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+              scope="col"
+            >
+              Рік
+            </th>
+            <th
+              class="border-2"
+              scope="col"
+            >
+              Податковий номер/серія(за наявності) та номер паспорта податкового агента
+            </th>
+            <th
+              class="border-2"
+              scope="col"
+            >
+              Найменування юридичної особи/ПІБ фізичної особи – підприємця
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              нарахованого
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              виплаченого
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              нарахованого
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              виплаченого
+            </th>
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              3
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              4
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              5
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              6
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              7
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              8
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              9
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              10
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              11
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              12
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              13
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              1 - Січень
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999981
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999981'
+            </th>
+            <th
+              class="border-2"
+            >
+              100.00
+            </th>
+            <th
+              class="border-2"
+            >
+              100.00
+            </th>
+            <th
+              class="border-2"
+            >
+              10.1
+            </th>
+            <th
+              class="border-2"
+            >
+              10.1
+            </th>
+            <th
+              class="border-2"
+            >
+              127 - Інші доходи, які включаються до складу загального місячного (річного) оподатковуваного доходу
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              1 - Лютий
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999982
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999982'
+            </th>
+            <th
+              class="border-2"
+            >
+              200.20
+            </th>
+            <th
+              class="border-2"
+            >
+              200.20
+            </th>
+            <th
+              class="border-2"
+            >
+              11.1
+            </th>
+            <th
+              class="border-2"
+            >
+              11.1
+            </th>
+            <th
+              class="border-2"
+            >
+              126 - Додаткове благо
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              3
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              1 - Березень
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999983
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999983'
+            </th>
+            <th
+              class="border-2"
+            >
+              300.30
+            </th>
+            <th
+              class="border-2"
+            >
+              300.30
+            </th>
+            <th
+              class="border-2"
+            >
+              12.1
+            </th>
+            <th
+              class="border-2"
+            >
+              12.1
+            </th>
+            <th
+              class="border-2"
+            >
+              157 - Дохiд, виплачений самозайнятiй особi
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              4
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              2 - Квітень
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999984
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999984'
+            </th>
+            <th
+              class="border-2"
+            >
+              400.40
+            </th>
+            <th
+              class="border-2"
+            >
+              400.40
+            </th>
+            <th
+              class="border-2"
+            >
+              13.1
+            </th>
+            <th
+              class="border-2"
+            >
+              13.1
+            </th>
+            <th
+              class="border-2"
+            >
+              120 - Дохiд у виглядi неустойки (штрафи, пеня)
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              5
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              2 - Травень
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999985
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999985'
+            </th>
+            <th
+              class="border-2"
+            >
+              500.50
+            </th>
+            <th
+              class="border-2"
+            >
+              500.50
+            </th>
+            <th
+              class="border-2"
+            >
+              14.1
+            </th>
+            <th
+              class="border-2"
+            >
+              14.1
+            </th>
+            <th
+              class="border-2"
+            >
+              126 - Додаткове благо
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              6
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              2 - Червень
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999986
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999986'
+            </th>
+            <th
+              class="border-2"
+            >
+              600.60
+            </th>
+            <th
+              class="border-2"
+            >
+              600.60
+            </th>
+            <th
+              class="border-2"
+            >
+              15.1
+            </th>
+            <th
+              class="border-2"
+            >
+              15.1
+            </th>
+            <th
+              class="border-2"
+            >
+              183 - Інвестиційний прибуток
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              7
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              3 - Липень
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999987
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999987'
+            </th>
+            <th
+              class="border-2"
+            >
+              700.70
+            </th>
+            <th
+              class="border-2"
+            >
+              700.70
+            </th>
+            <th
+              class="border-2"
+            >
+              16.1
+            </th>
+            <th
+              class="border-2"
+            >
+              16.1
+            </th>
+            <th
+              class="border-2"
+            >
+              157 - Дохiд, виплачений самозайнятiй особi
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              8
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              3 - Серпень
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999988
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999988'
+            </th>
+            <th
+              class="border-2"
+            >
+              800.80
+            </th>
+            <th
+              class="border-2"
+            >
+              800.80
+            </th>
+            <th
+              class="border-2"
+            >
+              17.1
+            </th>
+            <th
+              class="border-2"
+            >
+              17.1
+            </th>
+            <th
+              class="border-2"
+            >
+              110 - Проценти
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              9
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              3 - Вересень
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999989
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999989'
+            </th>
+            <th
+              class="border-2"
+            >
+              900.90
+            </th>
+            <th
+              class="border-2"
+            >
+              900.90
+            </th>
+            <th
+              class="border-2"
+            >
+              18.1
+            </th>
+            <th
+              class="border-2"
+            >
+              18.1
+            </th>
+            <th
+              class="border-2"
+            >
+              157 - Дохiд, виплачений самозайнятiй особi
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              10
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              4 - Жовтень
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999990
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999990'
+            </th>
+            <th
+              class="border-2"
+            >
+              1000.00
+            </th>
+            <th
+              class="border-2"
+            >
+              1000.00
+            </th>
+            <th
+              class="border-2"
+            >
+              19.1
+            </th>
+            <th
+              class="border-2"
+            >
+              19.1
+            </th>
+            <th
+              class="border-2"
+            >
+              120 - Дохiд у виглядi неустойки (штрафи, пеня)
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              11
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="border-2"
+            >
+              4 - Листопад
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              99999991
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              ТОВ '99999991'
+            </th>
+            <th
+              class="border-2"
+            >
+              1100.10
+            </th>
+            <th
+              class="border-2"
+            >
+              1100.10
+            </th>
+            <th
+              class="border-2"
+            >
+              20.1
+            </th>
+            <th
+              class="border-2"
+            >
+              20.1
+            </th>
+            <th
+              class="border-2"
+            >
+              157 - Дохiд, виплачений самозайнятiй особi
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              12
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2
+            </th>
+            <th
+              class="border-2"
+            >
+              4
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2022
+            </th>
+            <th
+              class="border-2"
+            >
+              1234567890
+            </th>
+            <th
+              class="w-64 border-2"
+            >
+              МИКОЛАЇВ МИКОЛАЙ МИКОЛАЙОВИЧ
+            </th>
+            <th
+              class="border-2"
+            >
+              1200.20
+            </th>
+            <th
+              class="border-2"
+            >
+              1200.20
+            </th>
+            <th
+              class="border-2"
+            >
+              21.1
+            </th>
+            <th
+              class="border-2"
+            >
+              21.1
+            </th>
+            <th
+              class="border-2"
+            >
+              512 - Податкова декларація платника єдиного податку - фізичної особи
+            </th>
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      class="text-center"
+    >
+      <button
+        class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-blue-500 text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+        type="button"
+      >
+        Оберить файл
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DFSFormBody component should match the snapshot with no data 1`] = `
+<div>
+  <div
+    class="shadow-lg"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="grid grid-rows-10 grid-cols-12"
+      >
+        <div
+          class="row-span-8 col-span-3 flex justify-center items-center border-2"
+        >
+          Фізична особа - платник податків
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        />
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          Прізвище
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        />
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          Ім'я
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        />
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          По батькові
+        </div>
+        <div
+          class="col-span-9 border-2 text-center"
+        />
+        <div
+          class="col-span-9 border-2 text-center"
+        >
+          Реестраційний номер облікової картки платника податків/серія (за наявності) та номер паспорта
+        </div>
+      </div>
+      <div
+        class="grid grid-rows-2 grid-cols-12"
+      >
+        <div
+          class="row-span-2 col-span-3 flex justify-center items-center border-2"
+        >
+          Який зареєстрований в
+        </div>
+        <div
+          class="col-span-1 border-2 text-center"
+        />
+        <div
+          class="col-span-8 border-2 text-center"
+        />
+        <div
+          class="col-span-1 border-2 text-center"
+        >
+          Код
+        </div>
+        <div
+          class="col-span-8 border-2 text-center"
+        >
+          Назва териториального органу ДПС
+        </div>
+      </div>
+      <div
+        class="grid grid-rows-1 grid-cols-12"
+      >
+        <div
+          class="col-span-3 text-center border-2"
+        >
+          Електронна адреса фізичної особи
+        </div>
+        <div
+          class="col-span-9 text-center border-2"
+        />
+      </div>
+      <div
+        class="flex pt-4"
+      >
+        <div
+          class="flex-initial w-8"
+        />
+        <div
+          class="flex-auto w-8 text-right"
+        >
+          за период з
+        </div>
+        <div
+          class="flex-auto w-8 text-center border-b-2 border-black"
+        />
+        <div
+          class="flex-auto w-8 text-left"
+        >
+          кварталу
+        </div>
+        <div
+          class="flex-auto w-8 text-center border-b-2 border-black"
+        />
+        <div
+          class="flex-auto w-8"
+        >
+          року
+        </div>
+        <div
+          class="w-32"
+        />
+        <div
+          class="flex-auto w-8 text-right"
+        >
+          по
+        </div>
+        <div
+          class="flex-auto w-8 text-center border-b-2 border-black"
+        />
+        <div
+          class="flex-auto w-8 text-left"
+        >
+          квартал
+        </div>
+        <div
+          class="flex-auto w-8 text-center border-b-2 border-black"
+        />
+        <div
+          class="flex-auto w-8"
+        >
+          року
+        </div>
+        <div
+          class="w-8"
+        />
+      </div>
+    </div>
+    <div
+      class="container overflow-hidden"
+    >
+      <table
+        class="min-w-full text-center text-sm font-light border-2"
+      >
+        <thead
+          class="font-medium dark:border-neutral-500"
+        >
+          <tr
+            class="border-2"
+          >
+            <th
+              class="border-2"
+              rowspan="2"
+              scope="col"
+            >
+              № з/п
+            </th>
+            <th
+              class="border-2"
+              rowspan="2"
+              scope="col"
+            >
+              Результат обробки запиту
+            </th>
+            <th
+              class="border-2"
+              colspan="2"
+              scope="col"
+            >
+              Період, за який надається інформація
+            </th>
+            <th
+              class="border-2"
+              colspan="2"
+              scope="col"
+            >
+              Джерела отримання інформації
+            </th>
+            <th
+              class="border-2"
+              colspan="2"
+              scope="col"
+            >
+              Сума доходу
+            </th>
+            <th
+              class="border-2"
+              colspan="2"
+              scope="col"
+            >
+              Сума утриманного податку
+            </th>
+            <th
+              class="border-2"
+              rowspan="2"
+              scope="col"
+            >
+              Код та назва ознаку доходу / код ознаки пільги
+            </th>
+            <th
+              class="border-2"
+              rowspan="2"
+              scope="col"
+            >
+              Дата прийому на роботу
+            </th>
+            <th
+              class="border-2"
+              rowspan="2"
+              scope="col"
+            >
+              Дата звільненя з роботи
+            </th>
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="border-2"
+              scope="col"
+            >
+              Номер кварталу - місяць
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+              scope="col"
+            >
+              Рік
+            </th>
+            <th
+              class="border-2"
+              scope="col"
+            >
+              Податковий номер/серія(за наявності) та номер паспорта податкового агента
+            </th>
+            <th
+              class="border-2"
+              scope="col"
+            >
+              Найменування юридичної особи/ПІБ фізичної особи – підприємця
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              нарахованого
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              виплаченого
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              нарахованого
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              виплаченого
+            </th>
+          </tr>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              1
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              2
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              3
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              4
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              5
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              6
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              7
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              8
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              9
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              10
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              11
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              12
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              13
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="border-2"
+          >
+            <th
+              class="whitespace-nowrap border-2"
+            />
+            <th
+              class="whitespace-nowrap border-2"
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="whitespace-nowrap border-2"
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="w-64 border-2"
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      class="text-center"
+    >
+      <button
+        class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-blue-500 text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+        type="button"
+      >
+        Оберить файл
+      </button>
+    </div>
+  </div>
+</div>
+`;
