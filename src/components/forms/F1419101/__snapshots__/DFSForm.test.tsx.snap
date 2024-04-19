@@ -219,7 +219,14 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
               colspan="2"
               scope="col"
             >
-              Сума утриманного податку
+              Сума податку
+            </th>
+            <th
+              class="border-2"
+              colspan="2"
+              scope="col"
+            >
+              Сума війскового збору
             </th>
             <th
               class="border-2"
@@ -269,6 +276,18 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
               scope="col"
             >
               Найменування юридичної особи/ПІБ фізичної особи – підприємця
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              нарахованого
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              виплаченого
             </th>
             <th
               class="-rotate-90 border-2"
@@ -363,6 +382,16 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             >
               13
             </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              14
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              15
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -421,9 +450,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              127 - Інші доходи, які включаються до складу загального місячного (річного) оподатковуваного доходу
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -486,9 +519,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              126 - Додаткове благо
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -551,9 +588,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              157 - Дохiд, виплачений самозайнятiй особi
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -616,9 +657,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              120 - Дохiд у виглядi неустойки (штрафи, пеня)
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -681,9 +726,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              126 - Додаткове благо
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -746,9 +795,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              183 - Інвестиційний прибуток
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -811,9 +864,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              157 - Дохiд, виплачений самозайнятiй особi
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -876,9 +933,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              110 - Проценти
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -941,9 +1002,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              157 - Дохiд, виплачений самозайнятiй особi
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -1006,9 +1071,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              120 - Дохiд у виглядi неустойки (штрафи, пеня)
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -1071,9 +1140,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              157 - Дохiд, виплачений самозайнятiй особi
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -1136,9 +1209,13 @@ exports[`DFSFormBody component should match the snapshot with data 1`] = `
             </th>
             <th
               class="border-2"
-            >
-              512 - Податкова декларація платника єдиного податку - фізичної особи
-            </th>
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
+            />
             <th
               class="border-2"
             />
@@ -1359,7 +1436,14 @@ exports[`DFSFormBody component should match the snapshot with no data 1`] = `
               colspan="2"
               scope="col"
             >
-              Сума утриманного податку
+              Сума податку
+            </th>
+            <th
+              class="border-2"
+              colspan="2"
+              scope="col"
+            >
+              Сума війскового збору
             </th>
             <th
               class="border-2"
@@ -1409,6 +1493,18 @@ exports[`DFSFormBody component should match the snapshot with no data 1`] = `
               scope="col"
             >
               Найменування юридичної особи/ПІБ фізичної особи – підприємця
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              нарахованого
+            </th>
+            <th
+              class="-rotate-90 border-2"
+              scope="col"
+            >
+              виплаченого
             </th>
             <th
               class="-rotate-90 border-2"
@@ -1503,6 +1599,16 @@ exports[`DFSFormBody component should match the snapshot with no data 1`] = `
             >
               13
             </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              14
+            </th>
+            <th
+              class="whitespace-nowrap border-2"
+            >
+              15
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -1526,6 +1632,12 @@ exports[`DFSFormBody component should match the snapshot with no data 1`] = `
             />
             <th
               class="w-64 border-2"
+            />
+            <th
+              class="border-2"
+            />
+            <th
+              class="border-2"
             />
             <th
               class="border-2"

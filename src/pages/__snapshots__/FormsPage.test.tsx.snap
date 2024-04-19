@@ -14,7 +14,7 @@ exports[`AppRouter component should match snapshot 1`] = `
       class="grid grid-cols-12"
     >
       <div
-        class="col-span-3 text-center"
+        class="col-span-3 text-center underline"
       >
         <a
           href="/forms/F1401803"
@@ -26,6 +26,42 @@ exports[`AppRouter component should match snapshot 1`] = `
         class="col-span-9"
       >
         Відомості з Державного реєстру фізичних осіб – платників податків про суми виплачених доходів та утриманих податків. Відповідь на запит у електронному вигляді
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-12"
+    >
+      <div
+        class="col-span-3 text-center underline"
+      >
+        <a
+          href="/forms/F1419101"
+        >
+          F1419101
+        </a>
+      </div>
+      <div
+        class="col-span-9"
+      >
+        Вiдомостi з Державного реєстру фiзичних осiб – платникiв податкiв про джерела та суми нарахованого доходу, нарахованого (перерахованого) податку та вiйськового збору (вiдповiдь на запит в електронному виглядi) (v1)
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-12"
+    >
+      <div
+        class="col-span-3 text-center underline"
+      >
+        <a
+          href="/forms/F1419103"
+        >
+          F1419103
+        </a>
+      </div>
+      <div
+        class="col-span-9"
+      >
+        Вiдомостi з Державного реєстру фiзичних осiб – платникiв податкiв про джерела та суми нарахованого доходу, нарахованого (перерахованого) податку та вiйськового збору (вiдповiдь на запит в електронному виглядi) (v3)
       </div>
     </div>
   </div>

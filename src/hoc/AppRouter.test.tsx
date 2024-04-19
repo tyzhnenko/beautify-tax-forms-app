@@ -1,3 +1,9 @@
+/**
+ * @jest-environment jsdom
+ */
+import { enableFetchMocks } from "jest-fetch-mock";
+enableFetchMocks();
+
 import { fireEvent, render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import AppRouter from "./AppRouter";
@@ -26,7 +32,8 @@ describe("AppRouter component", () => {
     expect(aboutLink).toHaveAttribute("href", "/about");
 
     fireEvent.click(availableFormsLink);
-    await screen.findByRole("heading", { name: "Доступні форми" });
+
+    await screen.findByRole("heading", { level: 1, name: "Доступні форми" });
     expect(
       screen.getByRole("heading", { name: "Доступні форми" })
     ).toBeInTheDocument();

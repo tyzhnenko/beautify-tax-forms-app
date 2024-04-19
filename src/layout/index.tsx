@@ -12,7 +12,7 @@ function Layout() {
       </main>
       <footer className="h-15">
         <div className="bg-gray-300 w-full mx-auto max-w-screen-2xl py-1 px-1 lg:px-8 lg:py-4 rounded-xl shadow-md text-center">
-          <span>&#169; 2023</span>
+          <span>&#169; 2023-2024</span>
         </div>
       </footer>
     </div>

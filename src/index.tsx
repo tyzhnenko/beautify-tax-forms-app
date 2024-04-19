@@ -5,7 +5,9 @@ import { ThemeProvider } from "@material-tailwind/react";
 
 import log from "loglevel";
 
-if (process.env.REACT_APP_ENV === "development") {
+// import "../public/css/tailwind.css";
+
+if (process.env.NODE_ENV === "development") {
   log.setLevel("debug");
 } else {
   log.setLevel("error");

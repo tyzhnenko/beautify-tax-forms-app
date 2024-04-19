@@ -1,5 +1,5 @@
 import { XMLParser } from "fast-xml-parser";
-import * as _ from "lodash";
+import range from "lodash/range";
 import log from "loglevel";
 
 export interface DFSFormHeaderType {
@@ -16,8 +16,7 @@ export interface DFSFormHeaderType {
   periodToQuarter: string;
 }
 
-export interface DFSFormRowType {
-  rowNumber: string;
+interface DFSFormRowDataType {
   requestResult: string;
   quarterMonth: string;
   year: string;
@@ -32,9 +31,24 @@ export interface DFSFormRowType {
   firedDate: string;
 }
 
+export interface DFSFormRowType extends DFSFormRowDataType {
+  rowNumber: string;
+}
+
+interface F1419101DFSFormRowDataType extends DFSFormRowDataType {
+  warTaxCounted: string;
+  warTaxPaid: string;
+}
+
+export interface F1419101DFSFormRowType extends F1419101DFSFormRowDataType {
+  rowNumber: string;
+}
+
+type RowsTypes = DFSFormRowType | F1419101DFSFormRowType;
+
 class DFSXMLForm {
   formType: string = "F1401803";
-  formColsMap = {
+  formColsMap: DFSFormRowDataType = {
     requestResult: "T1RXXXXG2",
     quarterMonth: "T1RXXXXG3S",
     year: "T1RXXXXG4",
@@ -53,6 +67,7 @@ class DFSXMLForm {
   XML: any;
 
   constructor(xmlString: string) {
+    log.info("DFSXMLForm constructor");
     const options = {
       parseTagValue: false,
       ignoreAttributes: false,
@@ -60,7 +75,6 @@ class DFSXMLForm {
     };
     this.XML = new XMLParser(options).parse(xmlString);
     log.debug(this.XML);
-    // this.fillRowsIndex();
   }
 
   parseFile() {
@@ -134,23 +148,24 @@ class DFSXMLForm {
     };
   }
 
-  private fillRow(rowNumber: string): DFSFormRowType {
+  private fillRow(rowNumber: string) {
     log.debug("fillRow rowNumber %s", rowNumber);
-    const newRow: DFSFormRowType = {
-      rowNumber: rowNumber,
-      requestResult: "",
-      quarterMonth: "",
-      year: "",
-      agentNumber: "",
-      agentName: "",
-      incomeCounted: "",
-      incomePaid: "",
-      taxCounted: "",
-      taxPaid: "",
-      taxCode: "",
-      hiredDate: "",
-      firedDate: "",
-    };
+    // const newRow: DFSFormRowType = {
+    //   rowNumber: rowNumber,
+    //   requestResult: "",
+    //   quarterMonth: "",
+    //   year: "",
+    //   agentNumber: "",
+    //   agentName: "",
+    //   incomeCounted: "",
+    //   incomePaid: "",
+    //   taxCounted: "",
+    //   taxPaid: "",
+    //   taxCode: "",
+    //   hiredDate: "",
+    //   firedDate: "",
+    // };
+    const newRow = this.getEmptyRow(rowNumber);
 
     for (const key in this.formColsIndexMap) {
       if (
@@ -158,26 +173,61 @@ class DFSXMLForm {
         rowNumber in this.formColsIndexMap[key]
       ) {
         log.debug("Index for %s key", key, this.formColsIndexMap[key]);
-        newRow[key as keyof DFSFormRowType] =
+        newRow[key as keyof RowsTypes] =
           this.formColsIndexMap[key][rowNumber]["#text"];
       }
     }
     return newRow;
   }
 
-  *row(): Generator<DFSFormRowType> {
+  *row(): Generator<RowsTypes> {
     const rows =
       this.fromBody[
         this.formColsMap[this.lenghtColName as keyof typeof this.formColsMap]
       ].length;
-    for (const rowNumber of _.range(1, rows + 1)) {
+    for (const rowNumber of range(1, rows + 1)) {
       yield this.fillRow(rowNumber.toString(10));
     }
   }
 
-  getBody(): DFSFormRowType[] {
+  getBody(): RowsTypes[] {
     return [...this.row()];
+  }
+
+  getEmptyRow(rowNumber: string): RowsTypes {
+    const newRow: RowsTypes = {
+      rowNumber: rowNumber,
+      ...this.formColsMap,
+    };
+    Object.keys(this.formColsMap).forEach((key) => {
+      newRow[key as keyof RowsTypes] = "";
+    });
+    return newRow;
   }
 }
 
-export default DFSXMLForm;
+class F1419101DFSXMLForm extends DFSXMLForm {
+  formType: string = "F1419101";
+  formColsMap: F1419101DFSFormRowDataType = {
+    requestResult: "T1RXXXXG2",
+    quarterMonth: "T1RXXXXG3S",
+    year: "T1RXXXXG4",
+    agentNumber: "T1RXXXXG5S",
+    agentName: "T1RXXXXG6S",
+    incomeCounted: "T1RXXXXG7",
+    incomePaid: "T1RXXXXG8",
+    taxCounted: "T1RXXXXG9",
+    taxPaid: "T1RXXXXG10",
+    warTaxCounted: "T1RXXXXG11",
+    warTaxPaid: "T1RXXXXG12",
+    taxCode: "T1RXXXXG13S",
+    hiredDate: "T1RXXXXG14D",
+    firedDate: "T1RXXXXG15D",
+  };
+}
+
+class F1419103DFSXMLForm extends F1419101DFSXMLForm {
+  formType: string = "F1419103";
+}
+
+export { DFSXMLForm, F1419101DFSXMLForm, F1419103DFSXMLForm };

@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import { render, screen } from "@testing-library/react";
 import AboutPage from "./AboutPage";
 import "@testing-library/jest-dom";
