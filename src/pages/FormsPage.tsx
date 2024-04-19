@@ -10,7 +10,7 @@ function FormsPage() {
       <h1 className="text-4xl text-center pb-10">Доступні форми</h1>
       {availableForms.map((form) => (
         <div className="grid grid-cols-12" key={form.name}>
-          <div className="col-span-3 text-center">
+          <div className="col-span-3 text-center underline">
             <Link to={`/forms/${form.name}`}>{form.name}</Link>
           </div>
           <div className="col-span-9">{form.description}</div>

@@ -14,7 +14,7 @@ import { TextEncoder, TextDecoder } from "util";
 describe("DFSFormBody component", () => {
   function getMockXML() {
     const mockData = fs.readFileSync(
-      "src/components/forms/F1401803/__testdata__/F1401803_mock_data.xml"
+      "src/components/forms/F1419103/__testdata__/F1419103_mock_data.xml"
     );
     return new File([mockData], "test.xml", { type: "text/xml" });
   }
@@ -22,7 +22,7 @@ describe("DFSFormBody component", () => {
   it("should render the component", () => {
     render(<DFSForm />);
 
-    expect(document.title).toEqual("Форма F1401803");
+    expect(document.title).toEqual("Форма F1419103");
     expect(
       screen.getByText("Фізична особа - платник податків")
     ).toBeInTheDocument();

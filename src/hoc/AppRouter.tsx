@@ -11,7 +11,7 @@ import HomePage from "../pages/HomePage";
 import FormsPage from "../pages/FormsPage";
 import { availableForms } from "../components/forms";
 
-function AppRouter() {
+export function appRoutes() {
   const appRoutes = createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<HomePage />} />
@@ -26,8 +26,11 @@ function AppRouter() {
       ))}
     </Route>
   );
+  return appRoutes;
+}
 
-  const router = createBrowserRouter(appRoutes);
+function AppRouter() {
+  const router = createBrowserRouter(appRoutes());
 
   return <RouterProvider router={router} />;
 }

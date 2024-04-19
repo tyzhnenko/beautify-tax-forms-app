@@ -1,10 +1,13 @@
 import { useState, useMemo } from "react";
 
 import DFSFormUploadFile from "../DFSFormUploadFile";
-import { DFSFormBody } from "./DFSFormBody";
-import { DFSFormHeader } from "./DFSFormHeader";
-import { DFSXMLForm } from "../../../utils/DFSXMLForm";
-import { DFSFormHeaderType, DFSFormRowType } from "../../../utils/DFSXMLForm";
+import { F1419101DFSFormBody } from "./DFSFormBody";
+import { F1419101DFSFormHeader } from "./DFSFormHeader";
+import { F1419101DFSXMLForm } from "../../../utils/DFSXMLForm";
+import {
+  DFSFormHeaderType,
+  F1419101DFSFormRowType,
+} from "../../../utils/DFSXMLForm";
 import { Alert } from "@material-tailwind/react";
 import useTitle from "../../../utils/useTitle";
 import log from "loglevel";
@@ -23,7 +26,7 @@ const defaultHeader = (): DFSFormHeaderType => ({
   periodToQuarter: "",
 });
 
-const defaultBody = (): Array<DFSFormRowType> => [
+const defaultBody = (): Array<F1419101DFSFormRowType> => [
   {
     rowNumber: "",
     requestResult: "",
@@ -36,19 +39,21 @@ const defaultBody = (): Array<DFSFormRowType> => [
     taxCounted: "",
     taxPaid: "",
     taxCode: "",
+    warTaxCounted: "",
+    warTaxPaid: "",
     hiredDate: "",
     firedDate: "",
   },
 ];
 
 function DFSForm() {
-  useTitle("Форма F1401803");
+  useTitle("Форма F1419101");
 
   const [formXML, setFormXML] = useState<string>("");
   const [formHeader, setFormHeader] = useState<DFSFormHeaderType>(
     defaultHeader()
   );
-  const [formBody, setFormBody] = useState<Array<DFSFormRowType>>(
+  const [formBody, setFormBody] = useState<Array<F1419101DFSFormRowType>>(
     defaultBody()
   );
   const [errorMessage, setErrorMessage] = useState("");
@@ -59,14 +64,14 @@ function DFSForm() {
       log.debug("formXML is empty");
       return;
     }
-    const xmlForm = new DFSXMLForm(formXML);
+    const xmlForm = new F1419101DFSXMLForm(formXML);
     if (!xmlForm.validFormType()) {
       setErrorMessage("Не вірний тип форми");
       return;
     }
     xmlForm.parseFile();
     setFormHeader(xmlForm.getHeader());
-    setFormBody(xmlForm.getBody());
+    setFormBody(xmlForm.getBody() as F1419101DFSFormRowType[]);
   }, [formXML]);
 
   return (
@@ -79,8 +84,8 @@ function DFSForm() {
         {errorMessage}
       </Alert>
       <div className="shadow-lg">
-        <DFSFormHeader headers={formHeader}></DFSFormHeader>
-        <DFSFormBody rows={formBody}></DFSFormBody>
+        <F1419101DFSFormHeader headers={formHeader}></F1419101DFSFormHeader>
+        <F1419101DFSFormBody rows={formBody}></F1419101DFSFormBody>
         <DFSFormUploadFile xmlLoader={setFormXML}></DFSFormUploadFile>
       </div>
     </>

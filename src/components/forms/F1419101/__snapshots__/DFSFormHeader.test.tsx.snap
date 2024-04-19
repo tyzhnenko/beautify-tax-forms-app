@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DFSFormHeader component should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="grid grid-rows-10 grid-cols-12"
+    >
+      <div
+        class="row-span-8 col-span-3 flex justify-center items-center border-2"
+      >
+        Фізична особа - платник податків
+      </div>
+      <div
+        class="col-span-9 border-2 text-center"
+      >
+        FirstName
+      </div>
+      <div
+        class="col-span-9 border-2 text-center"
+      >
+        Прізвище
+      </div>
+      <div
+        class="col-span-9 border-2 text-center"
+      >
+        LastName
+      </div>
+      <div
+        class="col-span-9 border-2 text-center"
+      >
+        Ім'я
+      </div>
+      <div
+        class="col-span-9 border-2 text-center"
+      >
+        SureName
+      </div>
+      <div
+        class="col-span-9 border-2 text-center"
+      >
+        По батькові
+      </div>
+      <div
+        class="col-span-9 border-2 text-center"
+      >
+        TaxNumber
+      </div>
+      <div
+        class="col-span-9 border-2 text-center"
+      >
+        Реестраційний номер облікової картки платника податків/серія (за наявності) та номер паспорта
+      </div>
+    </div>
+    <div
+      class="grid grid-rows-2 grid-cols-12"
+    >
+      <div
+        class="row-span-2 col-span-3 flex justify-center items-center border-2"
+      >
+        Який зареєстрований в
+      </div>
+      <div
+        class="col-span-1 border-2 text-center"
+      >
+        TaxAuthorityNumber
+      </div>
+      <div
+        class="col-span-8 border-2 text-center"
+      >
+        TaxAuthorityName
+      </div>
+      <div
+        class="col-span-1 border-2 text-center"
+      >
+        Код
+      </div>
+      <div
+        class="col-span-8 border-2 text-center"
+      >
+        Назва териториального органу ДПС
+      </div>
+    </div>
+    <div
+      class="grid grid-rows-1 grid-cols-12"
+    >
+      <div
+        class="col-span-3 text-center border-2"
+      >
+        Електронна адреса фізичної особи
+      </div>
+      <div
+        class="col-span-9 text-center border-2"
+      >
+        Email
+      </div>
+    </div>
+    <div
+      class="flex pt-4"
+    >
+      <div
+        class="flex-initial w-8"
+      />
+      <div
+        class="flex-auto w-8 text-right"
+      >
+        за период з
+      </div>
+      <div
+        class="flex-auto w-8 text-center border-b-2 border-black"
+      >
+        PeriodFromQuarter
+      </div>
+      <div
+        class="flex-auto w-8 text-left"
+      >
+        кварталу
+      </div>
+      <div
+        class="flex-auto w-8 text-center border-b-2 border-black"
+      >
+        PeriodFromYear
+      </div>
+      <div
+        class="flex-auto w-8"
+      >
+        року
+      </div>
+      <div
+        class="w-32"
+      />
+      <div
+        class="flex-auto w-8 text-right"
+      >
+        по
+      </div>
+      <div
+        class="flex-auto w-8 text-center border-b-2 border-black"
+      >
+        PeriodToQuarter
+      </div>
+      <div
+        class="flex-auto w-8 text-left"
+      >
+        квартал
+      </div>
+      <div
+        class="flex-auto w-8 text-center border-b-2 border-black"
+      >
+        PeriodToYear
+      </div>
+      <div
+        class="flex-auto w-8"
+      >
+        року
+      </div>
+      <div
+        class="w-8"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

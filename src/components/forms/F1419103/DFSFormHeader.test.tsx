@@ -4,11 +4,11 @@
 
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import DFSFormHeader from "./DFSFormHeader";
+import F1419103DFSFormHeader from "./DFSFormHeader";
 
 describe("DFSFormHeader component", () => {
   it("should render the component", () => {
-    render(<DFSFormHeader />);
+    render(<F1419103DFSFormHeader />);
 
     expect(
       screen.getByText("Фізична особа - платник податків")
@@ -49,7 +49,7 @@ describe("DFSFormHeader component", () => {
       periodToYear: "PeriodToYear",
     };
 
-    render(<DFSFormHeader headers={headers} />);
+    render(<F1419103DFSFormHeader headers={headers} />);
 
     expect(screen.getByText(headers.firstName)).toBeInTheDocument();
     expect(screen.getByText(headers.sureName)).toBeInTheDocument();
@@ -79,7 +79,7 @@ describe("DFSFormHeader component", () => {
       periodToYear: "PeriodToYear",
     };
 
-    const { asFragment } = render(<DFSFormHeader headers={headers} />);
+    const { asFragment } = render(<F1419103DFSFormHeader headers={headers} />);
     expect(asFragment()).toMatchSnapshot();
   });
 });

@@ -4,12 +4,12 @@
 
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import DFSFormBody from "./DFSFormBody";
+import F1419101DFSFormBody from "./DFSFormBody";
 import range from "lodash/range";
 
 describe("DFSFormBody component", () => {
   it("should render the component", () => {
-    render(<DFSFormBody />);
+    render(<F1419101DFSFormBody />);
 
     expect(screen.getByText("№ з/п")).toBeInTheDocument();
     expect(screen.getByText("Результат обробки запиту")).toBeInTheDocument();
@@ -20,7 +20,8 @@ describe("DFSFormBody component", () => {
       screen.getByText("Джерела отримання інформації")
     ).toBeInTheDocument();
     expect(screen.getByText("Сума доходу")).toBeInTheDocument();
-    expect(screen.getByText("Сума утриманного податку")).toBeInTheDocument();
+    expect(screen.getByText("Сума податку")).toBeInTheDocument();
+    expect(screen.getByText("Сума війскового збору")).toBeInTheDocument();
     expect(
       screen.getByText("Код та назва ознаку доходу / код ознаки пільги")
     ).toBeInTheDocument();
@@ -37,8 +38,8 @@ describe("DFSFormBody component", () => {
         "Найменування юридичної особи/ПІБ фізичної особи – підприємця"
       )
     ).toBeInTheDocument();
-    expect(screen.getAllByText("нарахованого")).toHaveLength(2);
-    expect(screen.getAllByText("виплаченого")).toHaveLength(2);
+    expect(screen.getAllByText("нарахованого")).toHaveLength(3);
+    expect(screen.getAllByText("виплаченого")).toHaveLength(3);
     for (const colNumber of range(1, 13 + 1)) {
       expect(screen.getByText(colNumber.toString())).toBeInTheDocument();
     }
@@ -57,6 +58,8 @@ describe("DFSFormBody component", () => {
         incomePaid: "incomePaid-1",
         taxCounted: "taxCounted-1",
         taxPaid: "taxPaid-1",
+        warTaxCounted: "warTaxCounted-1",
+        warTaxPaid: "warTaxPaid-1",
         taxCode: "taxCode-1",
         hiredDate: "hiredDate-1",
         firedDate: "firedDate-1",
@@ -72,12 +75,14 @@ describe("DFSFormBody component", () => {
         incomePaid: "incomePaid-2",
         taxCounted: "taxCounted-2",
         taxPaid: "taxPaid-2",
+        warTaxCounted: "warTaxCounted-2",
+        warTaxPaid: "warTaxPaid-2",
         taxCode: "taxCode-2",
         hiredDate: "hiredDate-2",
         firedDate: "firedDate-2",
       },
     ];
-    render(<DFSFormBody rows={rows} />);
+    render(<F1419101DFSFormBody rows={rows} />);
     rows.forEach((row) => {
       expect(screen.getByText(row.rowNumber)).toBeInTheDocument();
       expect(screen.getByText(row.requestResult)).toBeInTheDocument();
@@ -108,6 +113,8 @@ describe("DFSFormBody component", () => {
         incomePaid: "incomePaid-1",
         taxCounted: "taxCounted-1",
         taxPaid: "taxPaid-1",
+        warTaxCounted: "warTaxCounted-1",
+        warTaxPaid: "warTaxPaid-1",
         taxCode: "taxCode-1",
         hiredDate: "hiredDate-1",
         firedDate: "firedDate-1",
@@ -123,12 +130,14 @@ describe("DFSFormBody component", () => {
         incomePaid: "incomePaid-2",
         taxCounted: "taxCounted-2",
         taxPaid: "taxPaid-2",
+        warTaxCounted: "warTaxCounted-2",
+        warTaxPaid: "warTaxPaid-2",
         taxCode: "taxCode-2",
         hiredDate: "hiredDate-2",
         firedDate: "firedDate-2",
       },
     ];
-    const { asFragment } = render(<DFSFormBody rows={rows} />);
+    const { asFragment } = render(<F1419101DFSFormBody rows={rows} />);
     expect(asFragment()).toMatchSnapshot();
   });
 });
