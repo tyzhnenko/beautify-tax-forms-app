@@ -150,21 +150,6 @@ class DFSXMLForm {
 
   private fillRow(rowNumber: string) {
     log.debug("fillRow rowNumber %s", rowNumber);
-    // const newRow: DFSFormRowType = {
-    //   rowNumber: rowNumber,
-    //   requestResult: "",
-    //   quarterMonth: "",
-    //   year: "",
-    //   agentNumber: "",
-    //   agentName: "",
-    //   incomeCounted: "",
-    //   incomePaid: "",
-    //   taxCounted: "",
-    //   taxPaid: "",
-    //   taxCode: "",
-    //   hiredDate: "",
-    //   firedDate: "",
-    // };
     const newRow = this.getEmptyRow(rowNumber);
 
     for (const key in this.formColsIndexMap) {
