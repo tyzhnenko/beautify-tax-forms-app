@@ -100,7 +100,7 @@ describe("DFSFormBody component", () => {
     });
   });
 
-  it("shoud match snapshot", () => {
+  it("should match snapshot", () => {
     const rows = [
       {
         rowNumber: "rowNumber-1",
