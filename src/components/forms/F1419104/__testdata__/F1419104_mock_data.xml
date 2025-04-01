@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="WINDOWS-1251"?>
 
-<DECLAR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="F1419103.xsd">
+<DECLAR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="F1419104.xsd">
   <DECLARHEAD>
     <TIN>1234567890</TIN>
     <C_DOC>F14</C_DOC>
     <C_DOC_SUB>191</C_DOC_SUB>
-    <C_DOC_VER>3</C_DOC_VER>
+    <C_DOC_VER>4</C_DOC_VER>
     <C_DOC_TYPE>0</C_DOC_TYPE>
     <C_DOC_CNT>1</C_DOC_CNT>
     <C_REG>20</C_REG>
-    <C_RAJ>34</C_RAJ>
+    <C_RAJ>30</C_RAJ>
     <PERIOD_MONTH>3</PERIOD_MONTH>
     <PERIOD_TYPE>1</PERIOD_TYPE>
-    <PERIOD_YEAR>2023</PERIOD_YEAR>
-    <C_STI_ORIG>2034</C_STI_ORIG>
+    <PERIOD_YEAR>2025</PERIOD_YEAR>
+    <C_STI_ORIG>2030</C_STI_ORIG>
     <C_DOC_STAN>1</C_DOC_STAN>
-    <D_FILL>01012023</D_FILL>
+    <D_FILL>01012025</D_FILL>
     <SOFTWARE>DFS</SOFTWARE>
   </DECLARHEAD>
   <DECLARBODY>
     <HFILL1>01012023</HFILL1>
-    <HLNAME>ПРИЗВИЩЕ</HLNAME>
-    <HPNAME>ІМ'Я</HPNAME>
-    <HFNAME>ПОБАТЬКОВІ</HFNAME>
+    <HLNAME>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</HLNAME>
+    <HPNAME>пїЅпїЅ'пїЅ</HPNAME>
+    <HFNAME>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅВІ</HFNAME>
     <HTIN>1234567890</HTIN>
     <HKSTI>2034</HKSTI>
-    <HSTI>ГОЛОВНЕ УПРАВЛІННЯ ДПС У ХАРКІВСЬКІЙ ОБЛАСТІ,КИЇВСЬКА ДПІ(САЛТІВСЬКИЙ РАЙОН М.ХАРКОВА)</HSTI>
+    <HSTI>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅЛІпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅ пїЅпїЅпїЅКІпїЅпїЅпїЅКІпїЅ пїЅпїЅпїЅпїЅпїЅТІ,пїЅИЇпїЅпїЅпїЅпїЅпїЅ пїЅПІ(пїЅпїЅпїЅТІпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ.пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)</HSTI>
     <HEMAIL>user@example.com</HEMAIL>
     <R0401G1>1</R0401G1>
     <R0401G2>2022</R0401G2>
@@ -43,17 +43,17 @@
     <T1RXXXXG2 ROWNUM="10">1</T1RXXXXG2>
     <T1RXXXXG2 ROWNUM="11">1</T1RXXXXG2>
     <T1RXXXXG2 ROWNUM="12">2</T1RXXXXG2>
-    <T1RXXXXG3S ROWNUM="1">1 - Січень</T1RXXXXG3S>
-    <T1RXXXXG3S ROWNUM="2">1 - Січень</T1RXXXXG3S>
-    <T1RXXXXG3S ROWNUM="3">1 - Січень</T1RXXXXG3S>
-    <T1RXXXXG3S ROWNUM="4">2 - Лютий</T1RXXXXG3S>
-    <T1RXXXXG3S ROWNUM="5">2 - Лютий</T1RXXXXG3S>
-    <T1RXXXXG3S ROWNUM="6">2 - Лютий</T1RXXXXG3S>
-    <T1RXXXXG3S ROWNUM="7">3 - Березень</T1RXXXXG3S>
-    <T1RXXXXG3S ROWNUM="8">3 - Березень</T1RXXXXG3S>
-    <T1RXXXXG3S ROWNUM="9">3 - Березень</T1RXXXXG3S>
-    <T1RXXXXG3S ROWNUM="10">4 - Квітень</T1RXXXXG3S>
-    <T1RXXXXG3S ROWNUM="11">4 - Квітень</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="1">1 - СіпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="2">1 - СіпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="3">1 - СіпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="4">2 - пїЅпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="5">2 - пїЅпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="6">2 - пїЅпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="7">3 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="8">3 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="9">3 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="10">4 - пїЅпїЅпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
+    <T1RXXXXG3S ROWNUM="11">4 - пїЅпїЅпїЅпїЅпїЅпїЅ</T1RXXXXG3S>
     <T1RXXXXG3S ROWNUM="12">4 </T1RXXXXG3S>
     <T1RXXXXG4 ROWNUM="1">2022</T1RXXXXG4>
     <T1RXXXXG4 ROWNUM="2">2022</T1RXXXXG4>
@@ -79,18 +79,18 @@
     <T1RXXXXG5S ROWNUM="10">99999990</T1RXXXXG5S>
     <T1RXXXXG5S ROWNUM="11">99999991</T1RXXXXG5S>
     <T1RXXXXG5S ROWNUM="12">1234567890</T1RXXXXG5S>
-    <T1RXXXXG6S ROWNUM="1">Компанія '99999981'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="2">Компанія '99999982'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="3">Компанія '99999983'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="4">Компанія '99999984'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="5">Компанія '99999985'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="6">Компанія '99999986'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="7">Компанія '99999987'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="8">Компанія '99999988'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="9">Компанія '99999989'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="10">Компанія '99999990'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="11">Компанія '99999991'</T1RXXXXG6S>
-    <T1RXXXXG6S ROWNUM="12">ПРИЗВИЩЕ ІМ'Я ПОБАТЬКОВІ</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="1">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999981'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="2">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999982'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="3">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999983'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="4">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999984'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="5">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999985'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="6">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999986'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="7">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999987'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="8">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999988'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="9">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999989'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="10">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999990'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="11">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ '99999991'</T1RXXXXG6S>
+    <T1RXXXXG6S ROWNUM="12">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ'пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅВІ</T1RXXXXG6S>
     <T1RXXXXG7 ROWNUM="1">100.00</T1RXXXXG7>
     <T1RXXXXG7 ROWNUM="2">200.20</T1RXXXXG7>
     <T1RXXXXG7 ROWNUM="3">300.30</T1RXXXXG7>
@@ -139,18 +139,18 @@
     <T1RXXXXG10 ROWNUM="10">19.1</T1RXXXXG10>
     <T1RXXXXG10 ROWNUM="11">20.1</T1RXXXXG10>
     <T1RXXXXG10 ROWNUM="12">21.1</T1RXXXXG10>
-    <T1RXXXXG11S ROWNUM="1">127 - Інші доходи, які включаються до складу загального місячного (річного) оподатковуваного доходу</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="2">126 - Додаткове благо</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="3">157 - Дохiд, виплачений самозайнятiй особi</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="4">120 - Дохiд у виглядi неустойки (штрафи, пеня)</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="5">126 - Додаткове благо</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="6">183 - Інвестиційний прибуток</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="7">157 - Дохiд, виплачений самозайнятiй особi</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="8">110 - Проценти</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="9">157 - Дохiд, виплачений самозайнятiй особi</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="10">120 - Дохiд у виглядi неустойки (штрафи, пеня)</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="11">157 - Дохiд, виплачений самозайнятiй особi</T1RXXXXG11S>
-    <T1RXXXXG11S ROWNUM="12">512 - Податкова декларація платника єдиного податку - фізичної особи</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="1">127 - пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅ) пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="2">126 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="3">157 - пїЅпїЅпїЅiпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅiпїЅ пїЅпїЅпїЅпїЅi</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="4">120 - пїЅпїЅпїЅiпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅi пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ)</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="5">126 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="6">183 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="7">157 - пїЅпїЅпїЅiпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅiпїЅ пїЅпїЅпїЅпїЅi</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="8">110 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="9">157 - пїЅпїЅпїЅiпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅiпїЅ пїЅпїЅпїЅпїЅi</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="10">120 - пїЅпїЅпїЅiпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅi пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ)</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="11">157 - пїЅпїЅпїЅiпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅiпїЅ пїЅпїЅпїЅпїЅi</T1RXXXXG11S>
+    <T1RXXXXG11S ROWNUM="12">512 - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ</T1RXXXXG11S>
     <HFILL>01012023</HFILL>
   </DECLARBODY>
 </DECLAR>
