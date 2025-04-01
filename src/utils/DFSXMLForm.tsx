@@ -215,4 +215,8 @@ class F1419103DFSXMLForm extends F1419101DFSXMLForm {
   formType: string = "F1419103";
 }
 
-export { DFSXMLForm, F1419101DFSXMLForm, F1419103DFSXMLForm };
+class F1419104DFSXMLForm extends F1419101DFSXMLForm {
+  formType: string = "F1419104";
+}
+
+export { DFSXMLForm, F1419101DFSXMLForm, F1419103DFSXMLForm, F1419104DFSXMLForm };
