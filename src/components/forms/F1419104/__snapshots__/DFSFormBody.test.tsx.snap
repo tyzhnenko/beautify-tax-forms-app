@@ -1,0 +1,395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DFSFormBody component should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container overflow-hidden"
+  >
+    <table
+      class="min-w-full text-center text-sm font-light border-2"
+    >
+      <thead
+        class="font-medium dark:border-neutral-500"
+      >
+        <tr
+          class="border-2"
+        >
+          <th
+            class="border-2"
+            rowspan="2"
+            scope="col"
+          >
+            № з/п
+          </th>
+          <th
+            class="border-2"
+            rowspan="2"
+            scope="col"
+          >
+            Результат обробки запиту
+          </th>
+          <th
+            class="border-2"
+            colspan="2"
+            scope="col"
+          >
+            Період, за який надається інформація
+          </th>
+          <th
+            class="border-2"
+            colspan="2"
+            scope="col"
+          >
+            Джерела отримання інформації
+          </th>
+          <th
+            class="border-2"
+            colspan="2"
+            scope="col"
+          >
+            Сума доходу
+          </th>
+          <th
+            class="border-2"
+            colspan="2"
+            scope="col"
+          >
+            Сума податку
+          </th>
+          <th
+            class="border-2"
+            colspan="2"
+            scope="col"
+          >
+            Сума війскового збору
+          </th>
+          <th
+            class="border-2"
+            rowspan="2"
+            scope="col"
+          >
+            Код та назва ознаку доходу / код ознаки пільги
+          </th>
+          <th
+            class="border-2"
+            rowspan="2"
+            scope="col"
+          >
+            Дата прийому на роботу
+          </th>
+          <th
+            class="border-2"
+            rowspan="2"
+            scope="col"
+          >
+            Дата звільненя з роботи
+          </th>
+        </tr>
+        <tr
+          class="border-2"
+        >
+          <th
+            class="border-2"
+            scope="col"
+          >
+            Номер кварталу - місяць
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+            scope="col"
+          >
+            Рік
+          </th>
+          <th
+            class="border-2"
+            scope="col"
+          >
+            Податковий номер/серія(за наявності) та номер паспорта податкового агента
+          </th>
+          <th
+            class="border-2"
+            scope="col"
+          >
+            Найменування юридичної особи/ПІБ фізичної особи – підприємця
+          </th>
+          <th
+            class="-rotate-90 border-2"
+            scope="col"
+          >
+            нарахованого
+          </th>
+          <th
+            class="-rotate-90 border-2"
+            scope="col"
+          >
+            виплаченого
+          </th>
+          <th
+            class="-rotate-90 border-2"
+            scope="col"
+          >
+            нарахованого
+          </th>
+          <th
+            class="-rotate-90 border-2"
+            scope="col"
+          >
+            виплаченого
+          </th>
+          <th
+            class="-rotate-90 border-2"
+            scope="col"
+          >
+            нарахованого
+          </th>
+          <th
+            class="-rotate-90 border-2"
+            scope="col"
+          >
+            виплаченого
+          </th>
+        </tr>
+        <tr
+          class="border-2"
+        >
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            1
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            2
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            3
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            4
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            5
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            6
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            7
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            8
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            9
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            10
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            11
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            12
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            13
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            14
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            15
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="border-2"
+        >
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            rowNumber-1
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            requestResult-1
+          </th>
+          <th
+            class="border-2"
+          >
+            quarterMonth-1
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            year-1
+          </th>
+          <th
+            class="border-2"
+          >
+            agentNumber-1
+          </th>
+          <th
+            class="w-64 border-2"
+          >
+            agentName-1
+          </th>
+          <th
+            class="border-2"
+          >
+            incomeCounted-1
+          </th>
+          <th
+            class="border-2"
+          >
+            incomePaid-1
+          </th>
+          <th
+            class="border-2"
+          >
+            taxCounted-1
+          </th>
+          <th
+            class="border-2"
+          >
+            taxPaid-1
+          </th>
+          <th
+            class="border-2"
+          >
+            warTaxCounted-1
+          </th>
+          <th
+            class="border-2"
+          >
+            warTaxPaid-1
+          </th>
+          <th
+            class="border-2"
+          >
+            taxCode-1
+          </th>
+          <th
+            class="border-2"
+          >
+            hiredDate-1
+          </th>
+          <th
+            class="border-2"
+          >
+            firedDate-1
+          </th>
+        </tr>
+        <tr
+          class="border-2"
+        >
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            rowNumber-2
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            requestResult-2
+          </th>
+          <th
+            class="border-2"
+          >
+            quarterMonth-2
+          </th>
+          <th
+            class="whitespace-nowrap border-2"
+          >
+            year-2
+          </th>
+          <th
+            class="border-2"
+          >
+            agentNumber-2
+          </th>
+          <th
+            class="w-64 border-2"
+          >
+            agentName-2
+          </th>
+          <th
+            class="border-2"
+          >
+            incomeCounted-2
+          </th>
+          <th
+            class="border-2"
+          >
+            incomePaid-2
+          </th>
+          <th
+            class="border-2"
+          >
+            taxCounted-2
+          </th>
+          <th
+            class="border-2"
+          >
+            taxPaid-2
+          </th>
+          <th
+            class="border-2"
+          >
+            warTaxCounted-2
+          </th>
+          <th
+            class="border-2"
+          >
+            warTaxPaid-2
+          </th>
+          <th
+            class="border-2"
+          >
+            taxCode-2
+          </th>
+          <th
+            class="border-2"
+          >
+            hiredDate-2
+          </th>
+          <th
+            class="border-2"
+          >
+            firedDate-2
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;
